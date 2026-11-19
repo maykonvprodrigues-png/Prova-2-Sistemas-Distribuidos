@@ -1,0 +1,12 @@
+def consultar_estoque():
+    if principal["online"]:
+        return (
+            "PRINCIPAL",
+            principal["estoque"]
+        )
+
+    if replica["online"]:           # ESSA LINHA FOI ALTERADA
+        return (
+            "REPLICA",
+            replica["estoque"]
+        )
