@@ -1,0 +1,18 @@
+import threading
+import time
+
+# Servidores simulados
+
+principal = {
+    "online": True,
+    "estoque": 10
+}
+
+replica = {
+    "online": True,
+    "estoque": 10
+}
+
+# Controle de concorrencia
+
+MAXIMO_SIMULTANEO = 2   # ESSA LINHA
