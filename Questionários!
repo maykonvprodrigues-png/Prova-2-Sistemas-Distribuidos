@@ -1,0 +1,9 @@
+Questão 1. Qual é a função do semaforo no processamento dos pedidos?
+R: para que os pedidos não fiquem bagunçados ou fora de ordem, e ficarem em fila.
+
+Questão 2. Por que é necessário sincronizar os dados entre o servidor principal e a réplica?
+R: para ter backup dos dados, e não se perder.
+
+Questão 3. O que significa tolerância a falhas e como ela aparece neste programa?
+R: o servidor ele é online, ai onde entra essa tolerância, para quando o servidor cair, ele continiar funcionado até ter um retorno do servidor.
+
